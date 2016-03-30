@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="git://192.168.0.185/lollipop-x86/" />
   <remote  name="x86"
            fetch="." />
-  <default revision="refs/tags/android-5.1.1_r30"
+  <default revision="refs/heads/multiwindow"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
